@@ -1,5 +1,5 @@
-h1{
-    color:hotpink;
+h1, h3{
+    color:firebrick;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
 }
@@ -8,4 +8,37 @@ h2{
 }
 h4{
     color: gray;
+}
+p{
+    text-align: justify;
+    color: brown;
+    font-family: Courier New, Courier, monospace;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin: auto;
+    border-color: rebeccapurple;
+    border-width: 1px;
+    border-style: dashed;
+    background-color: lightgray;
+}
+.fechas{
+    color:rosybrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+    text-align: justify;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin: auto;
+    border-color: rebeccapurple;
+    border-width: 1px;
+    border-style: dashed;
 }

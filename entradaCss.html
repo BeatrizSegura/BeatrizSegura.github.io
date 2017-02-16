@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS</title>
+    <link rel="stylesheet" href="estiloBlog.css" type:"text/css">
 </head>
 <body>
     <header>
         <h3>CSS</h3>    
+        <img src="cssEjemplo.jpg" alt="Css" width="500px"> 
     </header>
     <main>  
-        Este lenguaje nos permite cambiar la apariencia de los elementos HTML, ya sea dandole color, fuentes diferentes, etc.
-        <p> Como todo lenguaje lleva una sintaxis general conformada por el <b> selector { declaraciones } </b>. 
+        <p>Este lenguaje nos permite cambiar la apariencia de los elementos HTML, ya sea dandole color, fuentes diferentes, etc.
+        Como todo lenguaje lleva una sintaxis general conformada por el <b> selector { declaraciones } </b>. 
         <br>Las declaraciones se conforman de <b> propiedad : valor; </b>.</p>
         <br>
         <h4> Tipos de Estilos </h4>
@@ -32,7 +34,30 @@
                 Estilo en linea: Se asigna la propiedad y el valor como atributo del elemento.
             </li>
         </ul>
+        <img src="cssEjemplo2.jpg" alt="Ejemplo css" width="500px"> 
         <h4> Selectores CSS </h4>
+        <p> Como se explico anteriormente los selectores son los que nos ayudan a definir los estilos de una pagina y para hacer esto existen diferentes tipos de selectores y aqui explicara los 5 principales: </p>
+        <ul>        
+            <li>
+                Selector de tipo: Selecciona un tipo de elemento HTML y aplica estilo a todos los elementos del mismo tipo, por ejemplo si le queremos aplicar a todos los parrafos una alineacion seria: <b> p { text- align: justify; } </b>
+            </li> 
+            <li>
+                Selector descendente: Aplica el estilo a elementos que estan contenidos dentro de otros elementos por ejemplo: <b> p b { color: red; } </b>
+            </li>
+            <li>
+                Selector hijo: Similar al descendente pero mas restrictivo. <br> Aplica el estilo solamente a los elementos que sean hijos directos de otro elemento <b> p > b { color: blue; } </b>
+            </li>
+            <li>
+                Selector por ID: ID es un atributo de un elemento HTML y se utiliza para aplicar un estilo de manera particular. Este selector utiliza el simbolo #. <b> #introduccion { color: blue; } </b>
+            </li>
+            <li>
+                Selector por clase: Aplica estilo a un conjunto de elementos, utiliza el simbolo . <br> <b> .especial { color: red; }</b>
+            </li>
+            <li>
+                Selector universal: Aplica el mismo estilo a todos los elementos de la pagina <b> *{ color: red; } </b>
+            </li>
+        </ul>
+        <p> Los estilos se heredan, si aplicas un estilo a un elemento, todos los elementos dentro de el tendran el mismo estilo, pero se pueden modificar por medio de declaraciones en cascada </p>
 
     <br>
     <br>
