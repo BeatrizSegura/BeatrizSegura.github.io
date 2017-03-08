@@ -1,18 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Arreglos</title>
     <link rel="stylesheet" href="estiloBlog.css" type="text/css">
 </head>
 <body>
+    <header>
     <h3>Arreglos en JavaScript</h3>
-        <img src="arrays.png" alt="Ejemplo de arreglos" width="400">
+    <img src="arrays.png" alt="Ejemplo de arreglos" width="400">
     </header>
     <main>  
+        <h4>Caracteristicas Particulares</h4>
+        <p>En JavaScript los arreglos pueden llegar a ser <b>Heterogeneos</b> esto es que pueden contener diferentes tipos de datos, no solo uno como en algunos lenguajes.</p>
+        
+        <p>Otra caracteristica importante es llamada <b>Jagged</b> que sirve para hacer las filas de los arreglos de diferentes tamaños, es decir, no siempre tienes que hacer matrices cuadradas</p>
+        <img src="jagged.gif" alt="Jagged" width="400">
         <h4>Creacion</h4>
         <p> Para crear un arreglo vacio en JavaScript existen muchas formas pero aqui veremos dos principalmente:</p>
-        <br>
+        <ul>
+            <li>
+                var arreglo= new Array()
+            </li>
+            <li>
+                var arreglo= []
+            </li>
+        </ul>
+        <h4>Metodos</h4>
+        <p>En JavaScript existen métodos para los arreglos y están diseñados para ser aplicados generalmente a todos los objetos los cuales "se asemejan" a las matrices unidimensionales. Esto es, pueden ser utilizados sobre cualquier objeto que tenga una propiedad de length que indique la longitud y los cuales pueden ser útiles para ser accedidos utilizando nombres de propiedades numéricas</p>
+        <p>Algunos ejemplos son:</p>
+        <ul>
+            <li>
+                concat()    Con este metodo se concatenan 2 arreglos y de ahi se produce uno nuevo
+            </li>
+            <li>
+                join()      Une todos los elementos de un arreglo en una cadena 
+            </li>
+            <li>
+                push()      Agrega un elemento al final del arreglo
+            </li>
+            <li>
+                pop()       Elimina el ultimo elemento del arreglo
+            </li>
+            <li>
+                reverse()   Regresa un arreglo con los elementos en orden invertido
+            </li>
+            <li>
+                sort()      Ordena los elementos de manera ascendente, tratandolos como cadenas
+            </li>
+            <li>
+                shift()     Elimina al inicio
+            </li>
+            <li>
+                unshift()   Inserta al inicio
+            </li>
+            <li>
+                splice()    Agregar o eliminar elementos en cualquier posicion
+            </li>
+            <li>
+                slice()     Extrae un subarreglo
+            </li>
+            <li>
+                indexof()   Busca en el arreglo y regresa el indice
+            </li>
+        </ul>
         <br>
         <a href="index.html">Pagina Principal</a>
     </main>
