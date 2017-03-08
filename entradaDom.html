@@ -4,36 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>DOM</title>
+    <link rel="stylesheet" href="estiloBlog.css" type="text/css">
 </head>
 <body>
     <header>
         <h3>DOM</h3>
+        <img src="dom.png" alt="Dom" width="500"> 
     </header>
     <main>  
-        <p> </p>
-        <p> Acceder a elementos del documento </p>
+        <p> DOM es una abreviatura de Document Objet Model. En español Modelo de Objeto de Documento y es una estructura jerárquica donde existen varios objetos y unos dependen de otros. </p>
+        <p> El DOM permite modificar documentos HTML y sus principales funciones son:</p>
+        <p>Acceder a elementos del documento, por ejemplo:</p>
+        <img src="ejemDom.png" alt="Dom" width="500"> 
         <ul>    
             <li>
-                
+                document.getElementsByTagName('etiqueta')
             </li>
             <li>
-                
+                document.getElementsByClassName('clase')
             </li>
             <li>
-                
+                document.getElementById('identificador')
             </li>
         </ul>
-        <p> Modificar el contenido de un elemento </p>
+        <p> Modificar el contenido de un elemento, por ejemplo: </p>
         <ul>    
             <li>
-                
+                elemento.textContent='texto'
             </li>
             <li>
-                
+                elemento.innerHTML='codigo HTML'
             </li>
         </ul>
-        <p> Agregar elementos nuevos </p>
+        <p> Y agregar elementos nuevos, y esto se hace a traves de 5 pasos: </p>
+        <ol>    
+            <li>
+                Crear el elemento con <b>createElement()</b>
+            </li>
+            <li>
+                Crear el contenido con <b>createTextNode()</b>
+            </li>
+            <li>
+                Añadir el contenido al elemento con <b>appendChild()</b>
+            </li>
+            <li>
+                Agregar atributos con <b>setAttribute()</b>
+            </li>
+            <li>
+                Añadir el nuevo elemento al documento con <b>appendChild()</b>
+            </li>
+        </ol>
         <br>
         <br>
         <a href="index.html">Pagina Principal</a>

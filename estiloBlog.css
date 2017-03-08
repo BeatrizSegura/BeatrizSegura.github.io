@@ -27,7 +27,7 @@ p{
     color:rosybrown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-ul{
+ul, ol{
     text-align: justify;
     color: brown;
     font-family: Arial, Helvetica, sans-serif;
