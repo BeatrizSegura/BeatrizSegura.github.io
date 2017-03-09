@@ -1,35 +1,47 @@
+body{
+    background-color: lightsteelblue;
+}
 h1, h3{
-    color:firebrick;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
 h2{
-    color: purple;
+    color: limegreen;
+    text-align: center;
 }
 h4{
-    color: gray;
+    color: darkred ;
+    text-align: right;
 }
 p{
     text-align: justify;
-    color: brown;
+    color: mediumblue;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin: auto;
-    border-color: purple;
+    /*border-color: purple;
     border-width: 1px;
     border-style: dashed;
-    background-color: lightgray;
+    background-color: lightgray;*/
+}
+
+footer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: mediumblue;
 }
 .fechas{
-    color:rosybrown;
+    color: darkred;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 ul, ol{
     text-align: justify;
-    color: brown;
+    color: mediumblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 img{
@@ -38,7 +50,4 @@ img{
     margin-bottom: 10px;
     margin-left: 10px;
     margin: auto;
-    border-color: purple;
-    border-width: 1px;
-    border-style: dashed;
 }
