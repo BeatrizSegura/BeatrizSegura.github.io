@@ -2,18 +2,18 @@ body{
     background-color: lightsteelblue;
 }
 h1, h3{
-    color: papayawhip;
+    color: darkred;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
     text-align: center;
 }
 h2{
-    color: papayawhip;
+    color: darkred;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 a{
-    color:papayawhip;
+    color:darkred;
 }
 h4{
     color: darkred ;
